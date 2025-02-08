@@ -27,3 +27,4 @@ class PySkyfield(PythonPackage):
     depends_on("py-matplotlib", type=("build", "run"))
     depends_on("py-pandas", type=("build", "run"))
     depends_on("py-jplephem", type=("build", "run"))
+    depends_on("py-sgp4", type=("build", "run"))
